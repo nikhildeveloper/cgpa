@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cgpa Calculator</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+   
+        <div class="heading">
+            <h1>cgpa</h1>
+            <h6>calculator</h6>
+        </div>
+        
+        <div class="labels">  
+                <label>Credits</label>
+                <label>Grade</label>    
+        </div>
+        <hr> 
+   <div class="container">
+       <ul class="ul">
+           <li>
+                <div class="credits">
+                    <input type="number" id="credit">
+                </div>
+                <div class="grade">
+                    <select id="grade">
+                        <option>O</option>
+                        <option>A+</option>
+                        <option>A</option>
+                        <option>B+</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>P</option>
+                        <option>F</option>
+                        <option>AB</option>
+                        <option>I</option>
+                    </select>
+                </div>  
+            </li>
+            <li>
+                <div class="credits">
+                    <input type="number" id="credit">
+                </div>
+                <div class="grade">
+                    <select>
+                        <option>O</option>
+                        <option>A+</option>
+                        <option>A</option>
+                        <option>B+</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>P</option>
+                        <option>F</option>
+                        <option>AB</option>
+                        <option>I</option>
+                    </select>
+                </div>
+            </li>
+            <li>
+                <div class="credits">
+                    <input type="number">
+                </div>
+                <div class="grade">
+                    <select>
+                        <option>O</option>
+                        <option>A+</option>
+                        <option>A</option>
+                        <option>B+</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>P</option>
+                        <option>F</option>
+                        <option>AB</option>
+                        <option>I</option>
+                    </select>
+                </div>
+            </li>
+            <li>
+                <div class="credits">
+                    <input type="number">
+                </div>
+                <div class="grade">
+                    <select>
+                        <option>O</option>
+                        <option>A+</option>
+                        <option>A</option>
+                        <option>B+</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>P</option>
+                        <option>F</option>
+                        <option>AB</option>
+                        <option>I</option>
+                    </select>
+                </div>
+            </li>
+            <li>
+                <div class="credits">
+                    <input type="number">
+                </div>
+                <div class="grade">
+                    <select>
+                        <option>O</option>
+                        <option>A+</option>
+                        <option>A</option>
+                        <option>B+</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>P</option>
+                        <option>F</option>
+                        <option>AB</option>
+                        <option>I</option>
+                    </select>
+                </div>
+            </li>
+            <li>
+                <div class="credits">
+                    <input type="number">
+                </div>
+                <div class="grade">
+                    <select>
+                        <option>O</option>
+                        <option>A+</option>
+                        <option>A</option>
+                        <option>B+</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>P</option>
+                        <option>F</option>
+                        <option>AB</option>
+                        <option>I</option>
+                    </select>
+                </div>
+            </li>
+            <li>
+                <div class="credits">
+                    <input type="number" id="credit">
+                </div>
+                <div class="grade">
+                    <select id="grade">
+                        <option>O</option>
+                        <option>A+</option>
+                        <option>A</option>
+                        <option>B+</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>P</option>
+                        <option>F</option>
+                        <option>AB</option>
+                        <option>I</option>
+                    </select>
+                </div>  
+            </li>
+            <li>
+                <div class="credits">
+                    <input type="number" id="credit">
+                </div>
+                <div class="grade">
+                    <select id="grade">
+                        <option>O</option>
+                        <option>A+</option>
+                        <option>A</option>
+                        <option>B+</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>P</option>
+                        <option>F</option>
+                        <option>AB</option>
+                        <option>I</option>
+                    </select>
+                </div>  
+            </li>
+        </ul>
+   </div>
+
+   <div class="container-btns">
+
+      <div><button class="btn1" onclick="addbtn()">ADD</button></div>
+      <div><button class="btn2" onclick="submitbtn()">SUBMIT</button></div>
+   </div>
+
+   <div class="result" id="result" style="visibility: hidden;">
+       <div class="result-modal" id="result-modal">
+           <div class="close-btn"><h1 onclick=funcclose()>+</h1></div>
+       </div>
+
+       <div class="result-display">
+            <h3 id="resultText">9.56</h3>
+       </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
