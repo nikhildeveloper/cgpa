@@ -65,7 +65,7 @@ hr{
     font-size: 20px;
     height: 60px;
     background: #b0ecdf;
-    box-shadow: inset -6px -5px 9px #ffffff,inset 6px 6px 12px #000000;
+    box-shadow: inset -3px -5px 9px #ffffff,inset 6px 6px 12px #000000;
     color: black;
 }
 .container>ul>li>div>select{
@@ -113,6 +113,7 @@ hr{
     background: #b0ecdf;
     box-shadow: 0px 0px 0px #ffffff, 6px 6px 10px #000000;
     font-weight: 700;
+    
 }
 .btn2{
     width: 800px;
@@ -148,7 +149,7 @@ hr{
     background: rgba(0, 0, 0, 0.7);
     justify-content: center;
     align-items: center;
-    
+    z-index: 10;
 }
 .result-modal{
     background-color: white;
@@ -213,6 +214,7 @@ hr{
     .container>ul>li>div>input{
         width: 150px;
         height: 10px;
+        box-shadow: inset -1px -2px 5px #ffffff,inset 6px 6px 12px #000000;
     }
     .container>ul>li>div>select{
         width: 50px;
@@ -257,7 +259,7 @@ hr{
         height:30px;
         margin-top: 20px;
         font-size: 20px;
-        font-weight: 500;
+        font-weight: 700;
     }
     div.container-btns{
         margin-left: 0;
